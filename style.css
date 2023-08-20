@@ -19,7 +19,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,7 @@ header{
 .logo{
     position: relative;
     max-width: 80px;
+    padding-top: 10px;
 }
 header ul{
     position: relative;
@@ -55,7 +56,7 @@ header ul li a{
 }
 .content .textBox h2{
     color: snow;
-    font-size: 100px;
+    font-size: 90px;
     line-height: 125px;
     font-weight: 900;
     text-transform: uppercase;
@@ -80,7 +81,7 @@ header ul li a{
     width: 600px;
     display: flex;
     padding-right: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
     justify-content: flex-end;
 }
 .imgBox img{
