@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.5s;
+    padding: 100px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: snow;
+    font-weight: 400;
+    margin-left: 35px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 60%;
+}
+.content .textBox h2{
+    color: snow;
+    font-size: 100px;
+    line-height: 125px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textBox p{
+    color: snow;
+    line-height: 25px;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: snow;
+    color: black;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.imgBox{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+.imgBox img{
+    max-width: 250px;
+}
+.thump{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thump li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thump li:hover{
+    transform: translateY(-30px);
+}
+.thump li img{
+    max-width: 40px;
+}
+.social{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    display: grid;
+    grid-template-columns: (1,1fr);
+}
+.social li{
+    margin: 5px 0;
+    color: snow;
+    font-size: 25px;
+}
